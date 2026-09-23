@@ -2,8 +2,6 @@
 
 **AI Helper** adalah portal web interaktif yang dirancang untuk membantu mahasiswa dan akademisi memanfaatkan berbagai alat Kecerdasan Buatan (*Artificial Intelligence*) secara bijak, bertanggung jawab, dan sesuai dengan etika serta regulasi hukum yang berlaku.
 
-![AI Helper Preview](https://img.shields.io/badge/Status-Active-brightgreen) ![License](https://img.shields.io/badge/License-MIT-blue) ![UPI-Guidelines](https://img.shields.io/badge/Pedoman-UPI%202024-red)
-
 ---
 
 ## 📌 Fitur Utama
@@ -41,6 +39,37 @@ Karya tulis ilmiah di lingkungan UPI diperbolehkan menggunakan bantuan AI dengan
 
 ## 🚀 Cara Menjalankan Secara Lokal
 
-1. **Clone repository ini:**
-   ```bash
-   git clone [https://github.com/jakacasper1554-eng/website_aihalper.git]
+**1. Clone repository ini:**
+
+```bash
+git clone https://github.com/jakacasper1554-eng/website_aihalper.git
+cd website_aihalper
+```
+
+**2. Buka aplikasi:**
+
+Cukup buka file `index.html` langsung di browser (Chrome/Firefox/Edge), atau gunakan *live server*:
+
+```bash
+# VS Code (ekstensi Live Server) -> klik kanan index.html -> Open with Live Server
+npx serve .
+```
+
+---
+
+## 📷 Dokumentasi
+
+### 🖼️ Tampilan Awal (*Warning Page*)
+
+Halaman pembuka dengan peringatan berpikir kritis dan *countdown* sebelum masuk ke portal.
+
+![Tampilan Awal — Halaman peringatan berpikir kritis](Tampilan%20Awal.png)
+
+### 🖼️ Tampilan Menu (*Dashboard*)
+
+Tampilan utama berisi katalog tools akademik, pedoman etika, regulasi AI, timer, dan kartu tim pengembang.
+
+![Tampilan Menu — Dashboard utama AI Helper](Tampilan%20Menu.png)
+
+
+
